@@ -1,0 +1,110 @@
+p, h2, label, h1, p.entry, h3{
+    color: white;
+}
+div.header_text{
+    display:inline-block;
+    padding: 5px 0;
+    vertical-align: middle;
+}
+aside{
+	float: right;
+	margin: 20px 0 0 5px;
+	padding: 5px 0;
+}
+header nav {
+	background-color: rgba(0, 123, 255, 0.603);
+	text-align: left;
+    height: 40px;
+}
+header nav a.aktiv {
+	color: white;
+	background-color: rgba(244, 8, 99, 0.288);
+	height: 40px;
+
+}
+
+header nav ul {
+	margin: 20px 0 0 5px;
+    list-style-type: none;
+}
+
+header nav li {
+	display: inline;
+    float: left;
+}
+video{
+	margin: 0 auto;
+    display: block;
+}
+
+table.videotable{
+	padding: 5px 10px 6px 0px;
+	margin: 0 0 0 5px;
+}
+table.videotable td{
+	width:100%;	
+	margin: 0 auto;
+	display: table-cell;
+}
+header nav a {
+	padding: 10px 20px 11px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration:  none;
+	display: block;
+	font-size: 9pt;
+}
+div.wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+table#kepek {
+	border: 0px solid;
+	width: 94%;
+	margin-left:3%; 
+    margin-right:3%;
+}
+
+#kepek img{
+	width: 100px;
+}
+
+#kepek_kicsi img {
+	width: auto;
+}
+
+#kepek tr {
+	text-align: left;
+} 
+
+#kepek td.data_yes {
+	border: 1px solid;
+	height: auto;
+	text-align: justify;
+	vertical-align: top;
+}
+
+#kepek td.data_no
+{
+	border:0px solid;
+	height: auto;
+	text-align: center;
+	vertical-align: center;
+}
+
+#kepek p.center
+{
+	text-align: center;
+}
+
+#kepek p.left
+{
+
+	text-align: left;
+}
+
+#kepek a:hover
+{
+	text-decoration: none;
+}
