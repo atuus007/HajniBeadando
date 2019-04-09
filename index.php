@@ -10,7 +10,7 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
 		<link href="style/style.css" rel="stylesheet" type="text/css" />
 	</head>
-	<body  background="style/animus.gif">
+	<body>
 		<div class='wrapper'>
 			<header>
 				<a href="https://abstergo.org/">
@@ -41,7 +41,7 @@
 				<section class="block_search">
 					<form method=get action="http://www.google.com/search">
 						<input type=text name=q size=23 maxlength=255 value=""><br>
-						<input type=submit name=btng value="keresés">
+						<input type=submit name=btng value="Keresés" class="btn btn-primary">
 					</form>
 					<script type="text/javascript" src="http://www.google.com/cse/tools/onthefly?form=searchbox_demo&lang=hu"></script>
 				</section>

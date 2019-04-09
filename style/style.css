@@ -1,5 +1,23 @@
-p, h2, label, h1, p.entry, h3{
+*{
+	margin: 0;
+	padding: 0;
+}
+p, h2, label, h1, h3{
     color: white;
+}
+
+body {
+	background: url('animus.gif');  
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size:100%;
+
+}
+#wrapper {
+	margin: 0 auto;
+	width: 1960px;
+	clear: both;
+
 }
 div.header_text{
     display:inline-block;
@@ -11,10 +29,19 @@ aside{
 	margin: 20px 0 0 5px;
 	padding: 5px 0;
 }
+
 header nav {
 	background-color: rgba(0, 123, 255, 0.603);
 	text-align: left;
     height: 40px;
+}
+header nav a {
+	padding: 10px 20px 11px;
+	color: white;
+	text-transform: uppercase;
+	text-decoration:  none;
+	display: block;
+	font-size: 9pt;
 }
 header nav a.aktiv {
 	color: white;
@@ -22,7 +49,6 @@ header nav a.aktiv {
 	height: 40px;
 
 }
-
 header nav ul {
 	margin: 20px 0 0 5px;
     list-style-type: none;
@@ -32,6 +58,40 @@ header nav li {
 	display: inline;
     float: left;
 }
+
+div.fasz{
+	border-radius: 25px;
+	border: 10px solid rgba(111, 119, 243, 0.438);
+	position: fixed;
+	top: 50%;
+	left: 30%;
+	padding: 30px 140px 30px 140px;
+}
+section.contact_block{
+	/*top, right, bottom, left*/
+	margin: 0 0 0 30px;
+}
+section.contact_block input{
+	/*top, right, bottom, left*/
+	margin: 0 0 10px 10px;
+}
+section.gyik_block{
+	/*top, right, bottom, left*/
+	margin: 0 0 10px 10px;
+}
+section.gyik_block p{
+	/*top, right, bottom, left*/
+	margin: 0 0 10px 20px;
+}
+
+input[name="comment"]{
+	padding: 0 0 100px 140px;
+}
+input[name="btng"]{
+	margin: 10px 0 0 0;
+}
+
+
 video{
 	margin: 0 auto;
     display: block;
@@ -46,14 +106,7 @@ table.videotable td{
 	margin: 0 auto;
 	display: table-cell;
 }
-header nav a {
-	padding: 10px 20px 11px;
-	color: white;
-	text-transform: uppercase;
-	text-decoration:  none;
-	display: block;
-	font-size: 9pt;
-}
+
 div.wrapper {
     width: 960px;
     margin: 0 auto;
@@ -85,26 +138,21 @@ table#kepek {
 	vertical-align: top;
 }
 
-#kepek td.data_no
-{
+#kepek td.data_no{
 	border:0px solid;
 	height: auto;
 	text-align: center;
 	vertical-align: center;
 }
 
-#kepek p.center
-{
+#kepek p.center{
 	text-align: center;
 }
 
-#kepek p.left
-{
-
+#kepek p.left{
 	text-align: left;
 }
 
-#kepek a:hover
-{
+#kepek a:hover{
 	text-decoration: none;
 }

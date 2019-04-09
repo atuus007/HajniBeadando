@@ -1,8 +1,7 @@
 	<h1>
 		GYIK
 	</h1>
-	<article>
-		<section>
+		<section class="gyik_block">
 			<h2>
 				Miért van ez meg az?
 			</h2>
@@ -20,4 +19,3 @@
 			</h2>
 			<p><strong>Válasz: </strong> Mert a kis nyúl szőrös és nem borotválkozik</p>
 		</section>
-	</article>

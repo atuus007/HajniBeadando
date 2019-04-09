@@ -1,8 +1,8 @@
 
 <?php
    define('DB_SERVER', 'localhost');
-   define('DB_USERNAME', 'admin');
-   define('DB_PASSWORD', 'admin');
+   define('DB_USERNAME', 'ati');
+   define('DB_PASSWORD', 'gemini');
    define('DB_DATABASE', 'test_db');
    $conn = new mysqli(DB_SERVER,DB_USERNAME,DB_PASSWORD,DB_DATABASE);
    if($conn === false){

@@ -64,7 +64,7 @@
 					<input type=email name=\"email\" size=23 maxlength=255 value=\"\"><br>
 					<label>Megjegyzés: </label><br>
 					<input type=text name=\"comment\" size=23 maxlength=255 value=\"\"><br>
-					<input type=submit name=\"send_contact\" value=\"Elküld\">
+					<input type=submit name=\"send_contact\" value=\"Elküld\" class=\"btn btn-primary\">
 				</form>
 			</section>";
 	}

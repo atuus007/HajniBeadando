@@ -58,16 +58,16 @@
         include("content/profile.php");
     }else{
 
-        echo "<h2>".$oldalak["login"]["menuszoveg"]."</h2>";
-        print "
-        <form method=\"post\" enctype=\"multipart/form-data\" action=\"\">
-            <label>Felhasználónév:</label><br/>
-            <input type = \"text\" name = \"username\" class = \"box\"/><br/>
-            <label>Jelszó:</label><br/><input type = \"password\" name = \"password\" class = \"box\" /><br/>
+        echo "<div class=\"fasz\"><h2>".$oldalak["login"]["menuszoveg"]."</h2>";
+        echo "
+			<form method=\"post\" enctype=\"multipart/form-data\" action=\"\">
+				<label>Felhasználónév:</label><br/>
+				<input type = \"text\" name = \"username\" class = \"box\"/><br/>
+				<label>Jelszó:</label><br/><input type = \"password\" name = \"password\" class = \"box\" /><br/>
 
-            <div class=\"form-group\">
                 <input type = \"submit\"  name=\"login\" value = \"Bejelentkezés\" class=\"btn btn-primary\"/>
-            </div>
-        </form>";
+
+            </form>
+            </div>";
     }
 ?>

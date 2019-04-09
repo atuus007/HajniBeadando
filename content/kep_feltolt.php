@@ -97,10 +97,10 @@ if(isset($_POST['uploadform'])){
 		// }
 	echo "<br>"
 		// ."Max fájl méret: ". $size_bytes / 1024 / 1024 ."MB</p>"
-		."<input type=\"file\" name=\"filetoupload\" accept=\"image/jpeg, image/png, image/gif\" >"
-		."<input type=\"hidden\" name=\"MAX_FILE_SIZE\" value=\"$size_bytes\">"
+		."<input type=\"file\" name=\"filetoupload\" accept=\"image/jpeg, image/png, image/gif\">"
+		."<input type=\"hidden\" name=\"MAX_FILE_SIZE\" value=\"$size_bytes\" >"
 		."<br>"
-		."<input type=\"Submit\" name=\"uploadform\" value=\"Feltöltöm\">"
+		."<input type=\"Submit\" name=\"uploadform\" value=\"Feltöltöm\" class=\"btn btn-primary\">"
 		."</form>";
 }
 ?>
